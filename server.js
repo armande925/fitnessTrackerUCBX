@@ -23,7 +23,7 @@ app.use(routes);
 
 mongoose.connect(process.env.MONGODB_URI 
     //mongodb://<dbuser>:<dbpassword>@ds161539.mlab.com:61539/heroku_g9s19wz1
-    || 'mongodb://adrom:Password1@ds161539.mlab.com:61539/heroku_g9s19wz1', 
+    || 'mongodb://fitnessTrackerUCBX:password1@ds019048.mlab.com:19048/heroku_cb39lr6w', 
     { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.listen(PORT, () => console.log(`Server started on PORT: ${PORT}`));
