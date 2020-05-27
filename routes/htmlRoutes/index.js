@@ -9,6 +9,6 @@ router.route('/exercise')
     .get(htmlController.getExercise);
 
 router.route('/stats')
-    .get(htmlController.getExercise);
+    .get(htmlController.getStats);
 
 module.exports = router;
